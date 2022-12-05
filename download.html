@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp By Ankush</title>
+    <link rel="icon" href="./images/logo-whatsapp-png-46044.png" type = "image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="md:flex md:justify-between md:items-center px-4 pt-4 md:pt-0 md:px-20 md:bg-[#128c7e] bg-[#075e54] h-[15vh] ">
+        <!-- logo -->
+        <div class="flex justify-between">
+            <div class="flex cursor-pointer ">
+                <a href="index.html"><img class="h-8 cursor-pointer" src="./images/logo-whatsapp-png-46044.png" alt="logo"></a>
+                <p class="mx-2 text-2xl font-bold text-white cursor-pointer"><a href="index.html">WhatsApp</a></p>
+            </div>
+            <span class="md:hidden block text-white text-xl pr-2">
+                <ion-icon name="menu" onclick="Menu(this)" class="h-10 w-8 cursor-pointer"></ion-icon>
+            </span>
+        </div>
+        <!-- list -->
+        <ul class="md:basis-3/4 md:flex md:justify-between text-white font-medium text-base opacity-0 md:opacity-100 z-[1] md:z-auto md:static absolute bg-[#075e54] md:bg-[#128c7e] w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-14 top-[-400px] md:transition-none transition-all ease-in duration-500">
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#one">WHATSAPP WEB</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#three">FEATURES</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] md:border-none " ><a class="md:hover:text-[#333]" href="download.html">DOWNLOAD</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#privacy">PRIVACY</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#footer">HELP CENTER</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#footer">GET IN TOUCH</a></li>
+        </ul>
+    </nav>
+    <main class="md:flex md:justify-between">
+        <!-- Left or top -->
+        <Section class="md:w-[49%] bg-[#e7f0e4] py-20">
+            <p class="text-center text-3xl tracking-widest font-medium">Phones</p>
+            <div class="flex flex-col md:flex-row md:justify-between px-20 pt-16 pb-10 text-center">
+                <div class="self-center">
+                    <img src="./images/alice.png" alt="Android ">
+                    <button class="mt-6 py-3 px-8 bg-[#128c7e] rounded-full text-white">Android</button>
+                </div>
+                <div class="self-center pt-10 md:pt-0">
+                    <img src="./images/iphone.png" alt="iphone">
+                    <button class="mt-6 py-3 px-8 bg-[#128c7e] rounded-full text-white">iPhone</button>
+                </div>
+            </div>
+            <p class="text-lg md:text-2xl text-center pt-8 px-2 md:px-[20%]">Visit <a class="text-[#5bb6ed] hover:underline" href="">whatsapp.com/dl</a> on your mobile phone to install.</p>
+            <p class="text-[#666967] md:text-lg text-center py-4 pb-10  px-10">By installing WhatsApp, you agree to our <a class="text-[#5bb6ed] hover:underline" href="">Terms & Privacy Policy</a>.</p>
+        </Section>
+        <!-- Right or bottom -->
+        <section class="md:px-20 md:w-[49%] bg-[#fcf2c6] py-20 px-10">
+            <p class="text-3xl text-center">Mac or Windows PC</p>
+            <img class="px-3 md:px-14 pt-20" src="./images/macPC.png" alt="mac">
+            <p class="pt-8 text-base md:text-lg text-[#666967] text-center">Windows 10 and higher. WhatsApp must be installed on your phone.</p>
+            <p class="pt-6 text-center text-[#5bb6ed] hover:underline cursor-pointer md:text-lg">Learn more about desktop experiences on WhatsApp</p>
+            <p class="pt-6 text-center md:text-lg">By clicking the Download button, you agree to our <span class="text-[#5bb6ed] hover:underline cursor-pointer">Terms & Privacy Policy</span>.</p>
+            <img class="px-[30%] pt-20" src="./images/ms-store.png" alt="image">
+        </section>
+    </main>
+    <!-- Section last  -->
+    <section class="flex flex-col md:flex-row justify-center bg-[#273443] px-20 pt-14 pb-10" >
+            <div class="flex justify-between pb-20 md:pb-0">
+                <div class="md:mr-20">
+                    <p class="text-white text-lg font-semibold pb-6 ">WHATSAPP</p>
+                    <ul class="text-white text-base">
+                        <li class="pt-2">Features</li>
+                        <li class="pt-2">Download</li>
+                        <li class="pt-2">WhatsApp Web</li>
+                        <li class="pt-2">Business</li>
+                        <li  class="pt-2">Privacy</li>
+                    </ul>
+                </div>
+                <div class="md:mr-20 md:ml-10">
+                    <p class="text-white text-lg font-semibold pb-6 ">COMPANY</p>
+                    <ul class="text-white text-base">
+                        <li class="pt-2">About</li>
+                        <li class="pt-2">Careers</li>
+                        <li class="pt-2">Brand Center</li>
+                        <li class="pt-2">Get in touch</li>
+                        <li class="pt-2">Blog</li>
+                        <li class="pt-2">WhatApp Stories</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-between pb-20 md:pb-0">
+                <div class="md:mr-20 md:ml-10">
+                    <p class="text-white text-lg font-semibold pb-6 ">DOWNLOAD</p>
+                    <ul class="text-white text-base">
+                        <li class="pt-2">Mac/PC</li>
+                        <li class="pt-2">Android</li>
+                        <li class="pt-2">iPhone</li>
+                    </ul>
+                </div>
+                <div class="md:ml-10">
+                    <p class="text-white text-lg font-semibold pb-6 ">HELP</p>
+                    <ul class="text-white text-base">
+                        <li class="pt-2">Help Center</li>
+                        <li class="pt-2">Twitter</li>
+                        <li class="pt-2">Facebook</li>
+                        <li class="pt-2">Coronavirus</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="flex flex-col items-center bg-[#1c1e21] py-4">
+            <p class="text-lg text-white tracking-widest cursor-pointer animate-bounce">Made with <i class="fa fa-heart-o text-[#f44336]"></i> Ankush Meshram</p>
+            <p class="text-white text-xs">Reach me at:  
+                <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://www.instagram.com/aankuushhh/">Instagram</a>
+                <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://www.linkedin.com/in/ankush-meshram-2b1739227/">LinkedIn</a>
+                <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://github.com/ANKUSH-meshram">GitHub</a>
+                <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://twitter.com/AnkushM48240707">Twitter</a>
+            </p>
+    </footer>
+</body>
+<script>
+    function Menu(e){
+        let list = document.querySelector('ul');
+        e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+</script>
+</html>
