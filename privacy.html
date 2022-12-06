@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp By Ankush</title>
+    <link rel="icon" href="./images/logo-whatsapp-png-46044.png" type = "image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#128c7e] md:bg-[#f0f4f9] max-w-7xl">
+    <!-- navbar -->
+    <nav class="sticky top-0 z-10 md:flex md:justify-between md:items-center px-4 pt-4 md:pt-0 md:px-20 md:bg-[#128c7e] bg-[#075e54] h-[15vh] drop-shadow-md md:drop-shadow-lg">
+        <!-- logo -->
+        <div class="flex justify-between">
+            <div class="flex cursor-pointer ">
+                <a href="index.html"><img class="h-8 cursor-pointer" src="./images/logo-whatsapp-png-46044.png" alt="logo"></a>
+                <p class="mx-2 text-2xl font-bold text-white cursor-pointer"><a href="index.html">WhatsApp</a></p>
+            </div>
+            <span class="md:hidden block text-white text-xl pr-2">
+                <ion-icon name="menu" onclick="Menu(this)" class="h-10 w-8 cursor-pointer"></ion-icon>
+            </span>
+        </div>
+        <!-- list -->
+        <ul class="md:basis-3/4 md:flex md:justify-between text-white font-medium text-base opacity-0 md:opacity-100 z-[1] md:z-auto md:static absolute bg-[#075e54] md:bg-[#128c7e] w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-14 top-[-400px] md:transition-none transition-all ease-in duration-500">
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="whatsappweb.html">WHATSAPP WEB</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#three">FEATURES</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] md:border-none " ><a class="md:hover:text-[#333]" href="download.html">DOWNLOAD</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="privacy.html">PRIVACY</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#footer">HELP CENTER</a></li>
+            <li class="py-5 md:py-0 border-b-[1px] border-[#128c7e] " ><a class="md:hover:text-[#333]" href="#footer">GET IN TOUCH</a></li>
+        </ul>
+    </nav>
+
+    <main class="py-14 md:py-20 bg-[#fff] md:mx-16 md:drop-shadow-sm">
+        <!-- Section Message Privately -->
+        <section class="px-12 md:px-[15%]">
+            <h1 class="text-2xl md:text-4xl font-bold ">Message Privately. Speak Freely.</h1>
+            <p class="pt-4 md:pt-6 md:text-lg ">We’ve built WhatsApp with industry-leading end-to-end encryption so your personal messages are protected by default, and stay between you and those you send them to. No one else, not even WhatsApp, can read or listen to them. What you share, and with whom you share it, is fully under your control.</p>
+            <p class="pt-8 md:pt-12 text-2xl md:text-4xl">Your privacy is automatic</p>
+
+            <div class="md:flex md:justify-between md:pt-8">
+                <div class="md:w-[40%] flex justify-center">
+                    <img src="./images/dash lock.svg" alt="">
+                </div>
+                <div class="md:w-[47%]">
+                    <h5 class="text-xl md:text-2xl">End-to-end encryption</h5>
+                    <p class="md:text-lg pt-6">Conversations in end-to-end encrypted chats are clearly labeled with a gold message; these messages and calls stay between you, and no one else can read or listen to its content, not even WhatsApp.</p>
+                    <h5 class="text-xl md:text-2xl pt-6 ">Messages are stored on your device</h5>
+                    <p class="md:text-lg pt-6 ">Your messages belong to you. That's why your messages are stored on your phone, and we don't share them with advertisers.</p>
+                </div>
+            </div>
+            <h3 class="pt-16 text-2xl md:text-4xl">You control your privacy</h3>
+            <p class="pt-4 md:text-xl">Choose additional layers of protection to suit your privacy needs.</p>
+            
+        </section>
+
+        <!-- view verification section -->
+        <section class="md:px-[15%] pt-10 md:pt-16 md:flex text-center md:text-start">
+            <!-- Left or Top (view Once) -->
+            <div class="md:w-[50%]">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/view once.jpg" alt="">
+                <h5 class="mt-4 md:mt-8 md:text-lg font-bold underline cursor-pointer ">View once</h5>
+                <p class="mt-4 md:text-lg md:pr-20 px-10 md:px-0">Send photos and videos that disappear after a single view.</p>
+            </div>
+            <!-- Left or Top (Two step verification) -->
+            <div class="md:w-[50%] mt-10 md:mt-0">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/verification.png" alt="">
+                <h5 class="mt-4 md:mt-8 md:text-lg font-bold underline cursor-pointer ">Two-step-verification</h5>
+                <p class="mt-4 md:text-lg md:pr-20 ">Add extra security when you sign in to your account.</p>
+            </div>
+        </section>
+
+        <!-- Lock and Encryption section -->
+        <section class="md:px-[15%] pt-10 md:pt-16 md:flex text-center md:text-start">
+            <!-- Left or Top (Lock Your Whatsapp) -->
+            <div class="md:w-[50%]">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/lock whats.png" alt="">
+                <h5 class="mt-2 md:mt-8 md:text-lg font-bold underline cursor-pointer ">Lock your WhatsApp</h5>
+                <p class="mt-4 md:text-lg md:pr-20 px-10 md:px-0">Enable <span class="text-[#7cb3ed] cursor-pointer hover:underline">Touch ID, Face ID</span>, or Android fingerprint lock to secure your WhatsApp.</p>
+            </div>
+            <!-- Left or Top (end to end) -->
+            <div class="md:w-[50%] pt-10 md:pt-0">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/end to end.png" alt="">
+                <h5 class="mt-4 md:mt-8 md:text-lg font-bold underline cursor-pointer ">End-to-end encrypted backups</h5>
+                <p class="mt-4 md:text-lg md:pr-20 ">Encrypt messages saved in your iCloud or Google Drive.</p>
+            </div>
+        </section>
+
+        <!-- Last Seen and Disappearing section -->
+        <section class="md:px-[15%] pt-10 md:pt-16 md:flex text-center md:text-start">
+            <!-- Left or Top (Last seen) -->
+            <div class="md:w-[50%]">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/last seen.png" alt="">
+                <h5 class="mt-4 md:mt-8 md:text-lg font-bold underline cursor-pointer ">Last seen and Online</h5>
+                <p class="mt-4 md:text-lg md:pr-20 px-10 md:px-0">Choose to be seen by only those you want – everyone, your contacts, some of your contacts, or no one..</p>
+            </div>
+            <!-- Left or Top (Diasppearing messages) -->
+            <div class="md:w-[50%] pt-10 md:pt-0">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/disapperaring.png" alt="">
+                <h5 class="mt-4 md:mt-8 md:text-lg font-bold underline cursor-pointer ">Diasppearing messages</h5>
+                <p class="mt-4 md:text-lg md:pr-20 px-10 md:px-0">Control how long messages stick around before they disappear.</p>
+            </div>
+        </section>
+
+        <!-- block and group section -->
+        <section class="md:px-[15%] pt-10 md:pt-16 md:flex text-center md:text-start">
+            <!-- Left or Top (Last seen) -->
+            <div class="md:w-[50%]">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/block.png" alt="">
+                <h5 class="mt-4 md:mt-8 md:text-lg font-bold underline cursor-pointer ">Block and Report</h5>
+                <p class="mt-4 md:text-lg md:pr-20 ">Keep unwanted contacts and messages out of your chat list.</p>
+            </div>
+            <!-- Left or Top (Group privacy settings) -->
+            <div class="md:w-[50%] pt-10 md:pt-0">
+                <img class="px-[37%] md:px-0 md:pr-[60%]" src="./images/group privacy.png" alt="">
+                <h5 class="mt-4 md:mt-8 md:text-lg font-bold underline cursor-pointer ">Group privacy settings</h5>
+                <p class="mt-4 md:text-lg md:pr-20 px-10 md:px-0">Choose whether everyone, all your contacts, or only some contacts can add you to a group chat.</p>
+            </div>
+        </section>
+
+        <!-- Safe  -->
+        <section class="px-12 md:px-[15%] pt-10 md:pt-16" >
+            <h1 class="text-2xl md:text-4xl">We're committed to keeping you safe</h1>
+            <p class="mt-4 md:mt-8 md:text-lg">WhatsApp offers a series of tools, features, and resources to help you make informed decisions and keep your communication safe and secure.</p>
+            
+            <ul class="mt-4 md:mt-8 md:text-lg">Learn how to:
+
+                <li class="pt-6  md:pt-10 pl-5 md:text-lg" ><i class="fa-solid fa-gear text-[#abb2b5] pr- hover:underline cursor-pointer3"></i> Customize your privacy features on <span class="text-[#3db3ed] md:text-lg hover:underline cursor-pointer ">Android</span> | <span class="text-[#3db3ed] md:text-lg ">iPhone</span></li>
+
+                <li class="pt-6 md:pt-10 pl-5 md:text-lg" > <i class="fa-solid fa-ban text-[#abb2b5]"></i> <span class="text-[#3db3ed] md:text-lg pl-3 hover:underline cursor-pointer ">Block users</span></li>
+
+                <li class="pt-6 md:pt-10 pl-5 md:text-lg" > <i class="fa-solid fa-thumbs-down text-[#abb2b5]"></i> <span class="text-[#3db3ed] md:text-lg pl-3 hover:underline cursor-pointer "> Report spam</span></li>
+
+                <li class="pt-6 md:pt-10 pl-5 md:text-lg" > <i class="fa-sharp fa-solid fa-circle-xmark text-[#abb2b5]"></i> <span class="text-[#3db3ed] md:text-lg pl-3 hover:underline cursor-pointer "> Use WhatsApp responsibly</span></li>
+
+                <li class="pt-6 md:pt-10 pl-5 md:text-lg" > <i class="fa-solid fa-hand text-[#abb2b5]"></i> <span class="text-[#3db3ed] md:text-lg pl-3 hover:underline cursor-pointer "> Limit the spread of misinformation</span></li>
+
+            </ul>
+        </section>
+
+        <!-- Transparancy -->
+        <section class="px-14 md:px-[15%] pt-10 md:pt-16">
+            <h1 class="text-2xl md:text-4xl">Data Transparancy</h1>
+            <div class="flex md:flex-row flex-col items-center pt-6 md:pt-10">
+                <!-- left (file) -->
+                <div class="md:w-[20%]">
+                    <img src="./images/file.png" alt="">
+                </div>
+                <!-- right (para) -->
+                <div class="md:w-[70%] pt-8 md:pt-2">
+                    <p class="md:text-lg text-center md:text-start">We want to be clear about what information remains private and what information we collect and share with our parent company, Meta. The information we share helps us provide the best user experience and improve security. For the most up-to-date and accurate information, see our <span class="text-[#3DB3ED] cursor-pointer hover:underline ">privacy policy</span>.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Section last  -->
+    <section class="flex flex-col md:flex-row justify-center bg-[#273443] px-20 pt-14 pb-10" >
+        <div class="flex justify-between pb-20 md:pb-0">
+            <div class="md:mr-20">
+                <p class="text-white text-lg font-semibold pb-6 ">WHATSAPP</p>
+                <ul class="text-white text-base">
+                    <li class="pt-2 cursor-pointer hover:underline">Features</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Download</li>
+                    <li class="pt-2 cursor-pointer hover:underline">WhatsApp Web</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Business</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Privacy</li>
+                </ul>
+            </div>
+            <div class="md:mr-20 md:ml-10">
+                <p class="text-white text-lg font-semibold pb-6 ">COMPANY</p>
+                <ul class="text-white text-base">
+                    <li class="pt-2 cursor-pointer hover:underline">About</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Careers</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Brand Center</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Get in touch</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Blog</li>
+                    <li class="pt-2 cursor-pointer hover:underline">WhatApp Stories</li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex justify-between pb-20 md:pb-0">
+            <div class="md:mr-20 md:ml-10">
+                <p class="text-white text-lg font-semibold pb-6 ">DOWNLOAD</p>
+                <ul class="text-white text-base">
+                    <li class="pt-2 cursor-pointer hover:underline">Mac/PC</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Android</li>
+                    <li class="pt-2 cursor-pointer hover:underline">iPhone</li>
+                </ul>
+            </div>
+            <div class="md:ml-10">
+                <p class="text-white text-lg font-semibold pb-6 ">HELP</p>
+                <ul class="text-white text-base">
+                    <li class="pt-2 cursor-pointer hover:underline">Help Center</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Twitter</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Facebook</li>
+                    <li class="pt-2 cursor-pointer hover:underline">Coronavirus</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="flex flex-col items-center bg-[#1c1e21] py-4">
+        <p class="text-lg text-white tracking-widest cursor-pointer animate-bounce">Made with <i class="fa fa-heart-o text-[#f44336]"></i> Ankush Meshram</p>
+        <p class="text-white text-xs">Reach me at:  
+            <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://www.instagram.com/aankuushhh/">Instagram</a>
+            <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://www.linkedin.com/in/ankush-meshram-2b1739227/">LinkedIn</a>
+            <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://github.com/ANKUSH-meshram">GitHub</a>
+            <a class="text-sm px-4 text-[#5da8dd] hover:text-[#e13f34] hover:underline" href="https://twitter.com/AnkushM48240707">Twitter</a>
+        </p>
+    </footer>
+</body>
+
+<script>
+    function Menu(e){
+        let list = document.querySelector('ul');
+        e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+</script>
+</html>
